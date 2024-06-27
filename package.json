@@ -3,7 +3,7 @@
     "react-tailwindcss": "./index.js"
   },
   "name": "@jahkamso/react-tailwindcss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Reactjs and tailwindcss project setup",
   "main": "index.js",
   "scripts": {
