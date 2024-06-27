@@ -1,6 +1,9 @@
 {
+  "bin": {
+    "react-tailwindcss": "./index.js"
+  },
   "name": "@jahkamso/react-tailwindcss",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Reactjs and tailwindcss project setup",
   "main": "index.js",
   "scripts": {
