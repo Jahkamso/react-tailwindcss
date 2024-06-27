@@ -1,5 +1,5 @@
 {
-  "name": "react-tailwindcss",
+  "name": "@jahkamso/react-tailwindcss",
   "version": "1.0.0",
   "description": "Reactjs and tailwindcss project setup",
   "main": "index.js",
