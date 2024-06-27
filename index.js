@@ -6,6 +6,13 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
+const projectName = process.argv[2]
+
+if (!projectName) {
+  console.error("Please provide a project name.");
+  process.exit(1);
+}
+
 // Function to execute commands synchronously
 const execCommand = (command) => {
   try {
@@ -19,7 +26,9 @@ const execCommand = (command) => {
 
 // Create React app
 console.log("Creating React project...");
-execCommand(`npm create vite@latest ./`);
+execCommand(`npm create vite@latest ${projectName}`);
+
+process.chdir(projectName)
 
 // Install and initialize its configurations
 console.log("Installing Tailwind CSS...");
