@@ -1,0 +1,22 @@
+{
+  "name": "react-tailwindcss",
+  "version": "1.0.0",
+  "description": "Reactjs and tailwindcss project setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jahkamso/react-tailwindcss.git"
+  },
+  "keywords": [
+    "react-tailwindcss"
+  ],
+  "author": "Jahkamso Uzoekwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jahkamso/react-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/Jahkamso/react-tailwindcss#readme"
+}
